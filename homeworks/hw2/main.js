@@ -12,7 +12,6 @@ let coursesAndDurationArray = [
 ];
 for (const item of coursesAndDurationArray) {
     if (item.monthDuration > 5) {
-        console.log(`${item.title} - навчання (${item.monthDuration} місяців) : Супер`);
+        console.log(`Курс "${item.title}" термін навчання - ${item.monthDuration} місяців : Супер`);
     }
 }
-
