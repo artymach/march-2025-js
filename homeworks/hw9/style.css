@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.course {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.title {
+    text-align: center;
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text1, .text2 {
+    display: inline-block;
+    width: 48%;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px 1%;
+    text-align: center;
+    vertical-align: top;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.modules {
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.modules li {
+    list-style-type: none;
+}
